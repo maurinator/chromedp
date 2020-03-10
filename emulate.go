@@ -1,7 +1,7 @@
 package chromedp
 
 import (
-	"github.com/chromedp/cdproto/emulation"
+	"github.com/maurinator/cdproto/emulation"
 	"github.com/chromedp/chromedp/device"
 )
 

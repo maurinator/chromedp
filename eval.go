@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/chromedp/cdproto/runtime"
+	"github.com/maurinator/cdproto/runtime"
 )
 
 // EvaluateAction are actions that evaluate Javascript expressions using

@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/dom"
-	"github.com/chromedp/cdproto/page"
-	"github.com/chromedp/cdproto/runtime"
-	"github.com/chromedp/cdproto/target"
+	"github.com/maurinator/cdproto/cdp"
+	"github.com/maurinator/cdproto/dom"
+	"github.com/maurinator/cdproto/page"
+	"github.com/maurinator/cdproto/runtime"
+	"github.com/maurinator/cdproto/target"
 	"github.com/chromedp/chromedp"
 	"github.com/chromedp/chromedp/device"
 )

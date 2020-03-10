@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/input"
+	"github.com/maurinator/cdproto/cdp"
+	"github.com/maurinator/cdproto/input"
 )
 
 // inViewportJS is a javascript snippet that will get the specified node

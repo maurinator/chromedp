@@ -3,9 +3,9 @@ package chromedp
 import (
 	"context"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/dom"
-	"github.com/chromedp/cdproto/input"
+	"github.com/maurinator/cdproto/cdp"
+	"github.com/maurinator/cdproto/dom"
+	"github.com/maurinator/cdproto/input"
 	"github.com/chromedp/chromedp/kb"
 )
 

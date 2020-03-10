@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/css"
-	"github.com/chromedp/cdproto/dom"
+	"github.com/maurinator/cdproto/cdp"
+	"github.com/maurinator/cdproto/css"
+	"github.com/maurinator/cdproto/dom"
 	"github.com/chromedp/chromedp/kb"
 )
 

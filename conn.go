@@ -11,7 +11,7 @@ import (
 	"github.com/mailru/easyjson/jlexer"
 	"github.com/mailru/easyjson/jwriter"
 
-	"github.com/chromedp/cdproto"
+	"github.com/maurinator/cdproto"
 )
 
 // Transport is the common interface to send/receive messages to a target.

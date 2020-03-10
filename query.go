@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/css"
-	"github.com/chromedp/cdproto/dom"
-	"github.com/chromedp/cdproto/page"
-	"github.com/chromedp/cdproto/runtime"
+	"github.com/maurinator/cdproto/cdp"
+	"github.com/maurinator/cdproto/css"
+	"github.com/maurinator/cdproto/dom"
+	"github.com/maurinator/cdproto/page"
+	"github.com/maurinator/cdproto/runtime"
 )
 
 // QueryAction are element query actions that select node elements from the

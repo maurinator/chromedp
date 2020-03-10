@@ -12,10 +12,10 @@ import (
 
 	easyjson "github.com/mailru/easyjson"
 
-	"github.com/chromedp/cdproto"
-	"github.com/chromedp/cdproto/browser"
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/target"
+	"github.com/maurinator/cdproto"
+	"github.com/maurinator/cdproto/browser"
+	"github.com/maurinator/cdproto/cdp"
+	"github.com/maurinator/cdproto/target"
 )
 
 // Browser is the high-level Chrome DevTools Protocol browser manager, handling

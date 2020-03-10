@@ -3,7 +3,7 @@ package chromedp
 import (
 	"fmt"
 
-	"github.com/chromedp/cdproto/cdp"
+	"github.com/maurinator/cdproto/cdp"
 )
 
 const (
