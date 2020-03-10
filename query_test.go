@@ -17,7 +17,7 @@ import (
 	"github.com/maurinator/cdproto/cdp"
 	"github.com/maurinator/cdproto/css"
 	"github.com/maurinator/cdproto/dom"
-	"github.com/chromedp/chromedp/kb"
+	"github.com/maurinator/chromedp/kb"
 )
 
 func TestWaitReady(t *testing.T) {

@@ -16,7 +16,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chromedp/chromedp/kb"
+	"github.com/maurinator/chromedp/kb"
 )
 
 var (
@@ -55,7 +55,7 @@ const hdr = `package %s
 // DOM keys.
 const (
 	%s)
-	
+
 // Keys is the map of unicode characters to their DOM key data.
 var Keys = map[rune]*Key{
 	%s}

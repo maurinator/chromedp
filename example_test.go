@@ -19,8 +19,8 @@ import (
 	"github.com/maurinator/cdproto/page"
 	"github.com/maurinator/cdproto/runtime"
 	"github.com/maurinator/cdproto/target"
-	"github.com/chromedp/chromedp"
-	"github.com/chromedp/chromedp/device"
+	"github.com/maurinator/chromedp"
+	"github.com/maurinator/chromedp/device"
 )
 
 func writeHTML(content string) http.Handler {
@@ -345,7 +345,7 @@ func ExamplePrintToPDF() {
 
 	var buf []byte
 	if err := chromedp.Run(ctx,
-		chromedp.Navigate(`https://godoc.org/github.com/chromedp/chromedp`),
+		chromedp.Navigate(`https://godoc.org/github.com/maurinator/chromedp`),
 		chromedp.ActionFunc(func(ctx context.Context) error {
 			var err error
 			buf, _, err = page.PrintToPDF().
